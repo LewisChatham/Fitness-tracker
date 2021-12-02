@@ -21,7 +21,7 @@ mongoose.connect(
     }
   );
 
-app.use(require("./controllers/index.js"));
+app.use(require("./controllers"));
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
